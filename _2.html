@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Registration </h1>
+    
+    <nav> 
+        <label for="fullname">Full Name:</label><br>
+  <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+<br>
+
+<label for="age">Select Age:</label><br>
+<select id="age" name="age" required>
+  <option value="">--Select Age--</option>
+</select>
+
+<script>
+  let ageDropdown = document.getElementById("age");
+  for (let i = 1; i <= 100; i++) {
+    let option = document.createElement("option");
+    option.value = i;
+    option.text = i;
+    ageDropdown.appendChild(option);
+  }
+</script>
+
+
+<br>
+
+ 
+         <input type="radio" name="gender" value="male" id="male">
+  <label for="male">Male</label><br>
+  <input type="radio" name="gender" value="female" id="female">
+  <label for="female">Female</label><br>
+
+  <input type="radio" name="gender" value="other" id="other">
+  <label for="other">Other</label>
+
+<br>
+ <label for="country">Select Country:</label><br>
+<select id="country" name="country" required>
+  <option value="">--Select--</option>
+  <option value="india">India</option>
+  <option value="usa">USA</option>
+  <option value="uk">United Kingdom</option>
+  <option value="australia">Australia</option>
+  <option value="canada">Canada</option>
+</select>
+    </nav>
+</body>
+</html>
