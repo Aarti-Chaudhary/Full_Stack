@@ -1,0 +1,24 @@
+
+/* the html tag u want to add css then it is said to be slector 
+------css defines in 3 types-
+inline ,external,internal
+
+inlne ex---- <h1 style="color:red">inline Styleing </h1>
+
+internal ex--- */
+ /* h1{
+    color:red;
+     font-size:30px; 
+}  */
+/* external ex--- same as intenal but outside the html file
+h1{
+    color:blue;
+     font-size:30px; 
+} 
+diff type of selector----
+1. element selector -use tag for define css
+2. universal selector -all tags css change
+3. ID and class */
+#lab{
+    background-color: crimson;
+}
